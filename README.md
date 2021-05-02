@@ -49,8 +49,8 @@ Change config by set the corresponding environment variable name.
 git clone https://github.com/dr-qaatil/chamanzhinga.git
 
 # build then execute using docker image
-docker build -t azamaulanaaa/chamanzhinga
-docker run -it azamaulanaaa/chamanzhinga
+docker build -t dr-qaatil/chamanzhinga
+docker run -it dr-qaatil/chamanzhinga
 ```
 
 ## Bot Details
