@@ -1,6 +1,6 @@
-# BOTKACA
+# chamanzhinga
 
-Botkaca allows you to leech (re-upload) contents from internet including torrent to telegram. This bot using Telegram MTProto powered by pyrogram.
+chamanzhinga allows you to leech (re-upload) contents from internet including torrent to telegram. This bot using Telegram MTProto powered by pyrogram.
 
 ## Feature
 
@@ -35,8 +35,8 @@ Change config by set the corresponding environment variable name.
 
 ## Deploy button
 
-[<img src="https://deploy.cloud.run/button.svg" alt="Run on Google Cloud" height="40"/>](https://deploy.cloud.run?git_repo=https://github.com/WeebTime/botkaca.git "Google Cloud")
-[<img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" height="40"/>](https://heroku.com/deploy?template=https://github.com/WeebTime/botkaca "Heroku")
+[<img src="https://deploy.cloud.run/button.svg" alt="Run on Google Cloud" height="40"/>](https://deploy.cloud.run?git_repo=https://github.com/dr-qaatil/chamanzhinga.git "Google Cloud")
+[<img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" height="40"/>](https://heroku.com/deploy?template=https://github.com/dr-qaatil/chamanzhinga "Heroku")
 
 *Currently google cloud does not supported due to app.json clash with heroku. Check out Google Cloud Run issue [#112](https://github.com/GoogleCloudPlatform/cloud-run-button/issues/112#issuecomment-663858778 "Both Cloud Run Button and Heroku Button - app.json Clash")*
 
@@ -45,12 +45,12 @@ Change config by set the corresponding environment variable name.
 ```sh
 #!/bin/sh
 
-# get botkaca source
-git clone https://github.com/azamaulanaaa/botkaca.git
+# get chamanzhinga source
+git clone https://github.com/dr-qaatil/chamanzhinga.git
 
 # build then execute using docker image
-docker build -t azamaulanaaa/botkaca botkaca
-docker run -it azamaulanaaa/botkaca
+docker build -t azamaulanaaa/chamanzhinga
+docker run -it azamaulanaaa/chamanzhinga
 ```
 
 ## Bot Details
